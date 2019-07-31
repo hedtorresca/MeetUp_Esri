@@ -1,0 +1,10 @@
+.remark-slide-number {
+  font-size: 13pt;
+  margin-bottom: 4px;
+  margin-right: 9px;
+  color: #252525; /* white */
+  opacity: 0.8; /* default: 0.5 */
+  background: #e7e8e2; /* darker */
+  border-radius: 2px;
+  padding: 3px;
+}

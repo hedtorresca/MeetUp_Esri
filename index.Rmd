@@ -6,13 +6,14 @@ institute: "Esri Colombia"
 date: "31 de julio de 2019"
 output:
   xaringan::moon_reader:
-    css: ["default"  , "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"]
+    css: ["default"  , "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css", "css/custom.css"]
     lib_dir: libs
     nature:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: true
       ratio: "16:9"
+      slideNumberFormat: "%current% / %total%"
       
 ---
 class:  animated, fadeIn
@@ -47,7 +48,7 @@ background-position: center
 background-size: contain
 class: animated, fadeIn, middle, center
 <img src="gif/learning.gif
-" alt="" style="width:280px; margin-top: 115px;"/>
+" alt="" style="width:270px; height: 230px; margin-top: 90px;"/>
 
 ---
 
@@ -57,32 +58,76 @@ background-size: contain
 class: animated,fadeIn
 
 
+---
+background-image: url(Diapositiva17.JPG)
+background-position: center
+background-size: contain
+class: animated,fadeIn
 
+<iframe marginheight="0" marginwidth="0" src="https://cran.r-project.org/" style='position:absolute;top:1px; bottom:100px; left:0px; width:100%; height:100%;' frameborder='no' scrolling='auto'></iframe>
 
+---
+background-image: url(Diapositiva17.JPG)
+background-position: center
+background-size: contain
+class: animated,fadeIn
+<iframe marginheight="0" marginwidth="0" src="https://mran.microsoft.com/" style='position:absolute;top:1px; bottom:100px; left:0px; width:100%; height:100%;' frameborder='no' scrolling='auto'></iframe>
 ---
 
 background-image: url(wallpaper/Diapositiva6.JPG)
 background-position: center
 background-size: contain
 class: animated,fadeIn
+---
+
+background-image: url(Diapositiva17.JPG)
+background-position: center
+background-size: contain
+class: animated,fadeIn
+
+<iframe marginheight="0" marginwidth="0" src="https://www.rstudio.com/" style='position:absolute;top:1px; bottom:100px; left:0px; width:100%; height:100%;' frameborder='no' scrolling='auto'></iframe>
 
 ---
+
 background-image: url(wallpaper/Diapositiva7.JPG)
 background-position: center
 background-size: contain
-class: animated, fadeIn, left, middle
-<img src="https://media.giphy.com/media/mf8UbIDew7e8g/giphy.gif
-" alt="" style="width:290px;"/>
+class: animated,fadeIn
 
 ---
 
+background-image: url(Diapositiva17.JPG)
+background-position: center
+background-size: contain
+class: animated,fadeIn
+
+<iframe marginheight="0" marginwidth="0" src="https://www.rstudio.cloud/" style='position:absolute;top:1px; bottom:100px; left:0px; width:100%; height:100%;' frameborder='no' scrolling='auto'></iframe>
+---
 background-image: url(wallpaper/Diapositiva8.JPG)
 background-position: center
 background-size: contain
+class: animated, fadeIn, left, middle
+<img src="https://media.giphy.com/media/mf8UbIDew7e8g/giphy.gif
+" alt="" style="width:290px;"/>
+
+---
+
+background-image: url(wallpaper/Diapositiva9.JPG)
+background-position: center
+background-size: contain
 class: animated,fadeIn
 
 ---
-background-image: url(wallpaper/Diapositiva9.JPG)
+
+background-image: url(Diapositiva17.JPG)
+background-position: center
+background-size: contain
+class: animated,fadeIn
+
+<iframe marginheight="0" marginwidth="0" src="https://geocompr.robinlovelace.net/" style='position:absolute;top:1px; bottom:100px; left:0px; width:100%; height:100%;' frameborder='no' scrolling='auto'></iframe>
+
+---
+background-image: url(wallpaper/Diapositiva10.JPG)
 background-position: center
 background-size: contain
 class: animated, fadeIn, left, middle
@@ -91,14 +136,22 @@ class: animated, fadeIn, left, middle
 
 ---
 
-background-image: url(wallpaper/Diapositiva10.JPG)
+
+background-image: url(wallpaper/Diapositiva11.JPG)
 background-position: center
 background-size: contain
 class: animated,fadeIn
 
 ---
+background-image: url(wallpaper/Diapositiva12.JPG)
+background-position: center
+background-size: contain
+class: animated, fadeIn, left, middle
+<img src="https://media.giphy.com/media/mf8UbIDew7e8g/giphy.gif
+" alt="" style="width:290px;"/>
+---
 
-background-image: url(wallpaper/Diapositiva11.JPG)
+background-image: url(wallpaper/Diapositiva13.JPG)
 background-position: center
 background-size: contain
 
@@ -106,31 +159,31 @@ class: right, middle, animated, fadeIn
 <img src="https://media.giphy.com/media/KtO0lBfNVqcZG/giphy.gif" alt="" style="width:300px; height:270px;  margin-right: 65px;margin-downn: 120px;"/>
 
 ---
-background-image: url(Diapositiva2.JPG)
+background-image: url(Diapositiva17.JPG)
 background-position: center
 background-size: contain
-
-<iframe marginheight="0" marginwidth="0" src="https://hedtorresca.shinyapps.io/MovilidadDRE/" width="92%" height="82%" align="right" border="0"></iframe>
+class: animated,fadeIn
+<iframe marginheight="0" marginwidth="0" src="https://hedtorresca.shinyapps.io/MovilidadDRE/" style='position:absolute;top:1px; bottom:100px; left:0px; width:100%; height:100%;' frameborder='no' scrolling='auto'></iframe>
 
 ---
 
-background-image: url(wallpaper/Diapositiva12.JPG)
-background-position: center
-background-size: contain
-class: animated, fadeIn, left, middle
-<img src="https://media.giphy.com/media/mf8UbIDew7e8g/giphy.gif
-" alt="" style="width:290px;"/>
-
----
-background-image: url(wallpaper/Diapositiva13.JPG)
-background-position: center
-background-size: contain
-class: animated, fadeIn, left, middle
-<img src="https://media.giphy.com/media/mf8UbIDew7e8g/giphy.gif
-" alt="" style="width:290px;"/>
-
----
 background-image: url(wallpaper/Diapositiva14.JPG)
+background-position: center
+background-size: contain
+class: animated, fadeIn, left, middle
+<img src="https://media.giphy.com/media/mf8UbIDew7e8g/giphy.gif
+" alt="" style="width:290px;"/>
+
+---
+background-image: url(wallpaper/Diapositiva15.JPG)
+background-position: center
+background-size: contain
+class: animated, fadeIn, left, middle
+<img src="https://media.giphy.com/media/mf8UbIDew7e8g/giphy.gif
+" alt="" style="width:290px;"/>
+
+---
+background-image: url(wallpaper/Diapositiva16.JPG)
 background-position: center
 background-size: contain
 class: animated, fadeIn, left, middle
