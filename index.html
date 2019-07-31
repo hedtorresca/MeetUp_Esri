@@ -14,6 +14,8 @@
     <script src="libs/Proj4Leaflet/proj4leaflet.js"></script>
     <link href="libs/rstudio_leaflet/rstudio_leaflet.css" rel="stylesheet" />
     <script src="libs/leaflet-binding/leaflet.js"></script>
+    <script src="libs/leaflet-providers/leaflet-providers.js"></script>
+    <script src="libs/leaflet-providers-plugin/leaflet-providers-plugin.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" type="text/css" />
     <link rel="stylesheet" href="css/custom.css" type="text/css" />
   </head>
@@ -173,10 +175,10 @@ background-position: center
 background-size: contain
 
 class: right, middle, animated, fadeIn
-&lt;img src="https://media.giphy.com/media/KtO0lBfNVqcZG/giphy.gif" alt="" style="width:300px; height:270px;  m
+&lt;img src="https://media.giphy.com/media/KtO0lBfNVqcZG/giphy.gif" alt="" style="width:300px; height:270px;"  &gt;
 
 ---
-background-image: url(wallpaper/Diapositiva17.JPG)
+background-image: url(Diapositiva18.jpg)
 background-position: center
 background-size: contain
 
@@ -184,11 +186,13 @@ class: right, middle, animated, fadeIn
 
 ```r
 library(leaflet)
-leaflet() %&gt;% addTiles() %&gt;% setView(-74.051257, 4.673637 ,zoom = 17) 
+leaflet() %&gt;% 
+addProviderTiles(providers$Esri.WorldStreetMap) %&gt;% 
+setView(-74.051257, 4.673637 ,zoom = 17)  %&gt;% addMarkers(lat=4.673637, lng=-74.051257)
 ```
 
-<div id="htmlwidget-86c02d0d074f2f437412" style="width:100%;height:432px;" class="leaflet html-widget"></div>
-<script type="application/json" data-for="htmlwidget-86c02d0d074f2f437412">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]}],"setView":[[4.673637,-74.051257],17,[]]},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-323ac6c97e952b043b7f" style="width:100%;height:432px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-323ac6c97e952b043b7f">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addProviderTiles","args":["Esri.WorldStreetMap",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addMarkers","args":[4.673637,-74.051257,null,null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},null,null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"setView":[[4.673637,-74.051257],17,[]],"limits":{"lat":[4.673637,4.673637],"lng":[-74.051257,-74.051257]}},"evals":[],"jsHooks":[]}</script>
 ---
 background-image: url(Diapositiva17.JPG)
 background-position: center

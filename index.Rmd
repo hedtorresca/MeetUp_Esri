@@ -162,17 +162,19 @@ background-position: center
 background-size: contain
 
 class: right, middle, animated, fadeIn
-<img src="https://media.giphy.com/media/KtO0lBfNVqcZG/giphy.gif" alt="" style="width:300px; height:270px;  m
+<img src="https://media.giphy.com/media/KtO0lBfNVqcZG/giphy.gif" alt="" style="width:300px; height:270px;"  >
 
 ---
-background-image: url(wallpaper/Diapositiva17.JPG)
+background-image: url(Diapositiva18.jpg)
 background-position: center
 background-size: contain
 
 class: right, middle, animated, fadeIn
 ```{r out.width='100%', fig.height=6, eval=require('leaflet')}
 library(leaflet)
-leaflet() %>% addTiles() %>% setView(-74.051257, 4.673637 ,zoom = 17) 
+leaflet() %>% 
+addProviderTiles(providers$Esri.WorldStreetMap) %>% 
+setView(-74.051257, 4.673637 ,zoom = 17)  %>% addMarkers(lat=4.673637, lng=-74.051257)
 ```
 ---
 background-image: url(Diapositiva17.JPG)
