@@ -203,17 +203,7 @@ class: animated, fadeIn, left, middle
 <img src="https://media.giphy.com/media/mf8UbIDew7e8g/giphy.gif
 " alt="" style="width:290px;"/>
 
----
-background-image: url(wallpaper/Diapositiva18.JPG)
-background-position: center
-background-size: contain
-class: animated,fadeIn
-<iframe marginheight="0" marginwidth="0" src="https://rstudio.cloud/project/426856" style='position:absolute;top:1px; bottom:100px; left:0px; width:100%; height:100%;' frameborder='no' scrolling='auto'></iframe>
 
-
-??? 
-
-https://rstudio.cloud/project/426856
 
 ---
 background-image: url(wallpaper/Diapositiva15.JPG)
@@ -230,7 +220,7 @@ background-image: url(wallpaper/Diapositiva18.JPG)
 background-position: center
 background-size: contain
 class: animated,fadeIn
-<iframe marginheight="0" marginwidth="0" src="https://create.kahoot.it/details/r-para-desarrolladores-y-usuarios-de-arcgis/d563d325-dc95-4c31-b72e-2b83434c122a" style='position:absolute;top:1px; bottom:100px; left:0px; width:100%; height:100%;' frameborder='no' scrolling='auto'></iframe>
+<iframe marginheight="0" marginwidth="0" src="https://play.kahoot.it/#/lobby?quizId=d563d325-dc95-4c31-b72e-2b83434c122a" style='position:absolute;top:1px; bottom:100px; left:0px; width:100%; height:100%;' frameborder='no' scrolling='auto'></iframe>
 
 ---
 background-image: url(wallpaper/Diapositiva16.JPG)
